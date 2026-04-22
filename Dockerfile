@@ -10,4 +10,4 @@ ENV HF_HOME=/runpod-volume/huggingface
 ENV TENSOR_PARALLEL_SIZE=1
 ENV MAX_MODEL_LEN=8192
 
-ENTRYPOINT ["python", "-u", "handler.py"]
+ENTRYPOINT ["python3", "-u", "handler.py"]
